@@ -122,7 +122,7 @@ Once it has a list of online computers, it will create a JSON-file on their C-dr
 
 ![Design]({{site.baseurl}}/assets/images/argus/toasts.png)  
 
-There are 4 types of messages that can exist on the servicemonitor, each type got its own color, the same ones as on the servicemonitor.
+There are 4 types of messages (each with their own color) that can exist on the servicemonitor.
 
 - Information (info)
 - Outage (storingen)
