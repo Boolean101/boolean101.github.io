@@ -61,7 +61,7 @@ You can then create the file with the following code :
 ```powershell
 Set-Content -Path $env:temp\MahApps.Metro.dll -Value $MahAppsMetro -Encoding Byte
 ```
-
+This would be like copy\pasting the DLL, only now i don't need to store the sourcefiles at a location that every user has access to.
 
 # Expanding on the idea
 
