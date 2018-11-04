@@ -96,7 +96,7 @@ So this is what Argus looks like as a finished product, with and without the fly
 ## SOS-warning system
 
 ### Background story
-Some years ago we were unfortunate enough to have both the exchange-server as the telecommunication-server down at the same time. The problem here, aside the obvious, was that we couldn't reach and inform our users about the issues. 
+A few years back, we were unfortunate enough to have both the exchange-server as the telecommunication-server down at the same time. The problem here, aside the obvious, was that we couldn't reach and inform our users about the issues. 
 
 Afterwards a colleague asks if we could figure out some sort of SOS\Emergency system if this were ever to happen again.
 
