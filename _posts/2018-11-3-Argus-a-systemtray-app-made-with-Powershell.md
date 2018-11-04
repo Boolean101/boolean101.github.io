@@ -87,7 +87,7 @@ Anyway, with the Helpdesk-button on the top and the wheel-cog on the buttom left
 The green cog will just start the command:
 > control printers
 
-This way users can quickly change there default printer. 
+This way users can quickly change their default printer. 
 
 So this is what Argus looks like as a finished product
 
