@@ -99,7 +99,7 @@ So this is what Argus looks like as a finished product
 ### Background story
 Some years ago we were unfortunate enough to have both the exchange-server as the telecommunication-server down at the same time. The problem here, aside the obvious, was that we couldn't reach and inform our users about the issues. 
 
-Afterwards a college asks if we could figure out some sort of SOS\Emergency system if this were ever to happen again.
+Afterwards a colleague asks if we could figure out some sort of SOS\Emergency system if this were ever to happen again.
 
 One request of the end-user was that the message or notification would not be to intrusive. This brought me back to the toast-notifications that would just pop-up for a few seconds to then disappear. 
 
