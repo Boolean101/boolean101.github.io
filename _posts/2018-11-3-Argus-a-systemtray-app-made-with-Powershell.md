@@ -6,7 +6,7 @@ Author_profile: true
 published: true
 date: '2018-10-28'
 ---
-Hi! This blog-post is about one of the projects i'm most proud of! The development of "Argus" started around March of 2018. This project grew whilst working on it. I have tried to structure this blog-post as best as i could but in truth most ideas and discoveries were made during the development. Here goes ...
+Hi! This blog-post is about one of the projects i'm most proud of! The development of "Argus" started around March of 2018. This project grew while i was working on it. I have tried to structure this blog-post as best as i could but in truth most ideas and discoveries were made during the development. This post is less technical and more an in depth overview of what the application actually is. Here goes ...
 
 ## The birth of the idea
 One part of my job is being part of the help desk. When called by a customer or colleague, i usually ask for their computer-name. Most users tend to not know the name by heart (*com'on guys!)* or have a hard time figuring out where to find it. With the deployment of Windows 10 this became even more prevalent.
