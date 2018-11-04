@@ -1,7 +1,6 @@
 ---
 Layout: post
 title: Argus, my loyal dog!
-Tags: 'PS, Scrape, Warranty'
 Author_profile: true
 published: true
 date: '2018-11-4'
