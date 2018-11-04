@@ -89,7 +89,7 @@ The green cog will just start the command:
 
 This way users can quickly change their default printer. 
 
-So this is what Argus looks like as a finished product
+So this is what Argus looks like as a finished product, with and without the fly-in menu.
 
 ![Design]({{site.baseurl}}/assets/images/argus/gui.png)  
 
