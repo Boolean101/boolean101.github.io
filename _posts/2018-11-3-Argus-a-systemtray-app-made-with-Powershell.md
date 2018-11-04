@@ -108,17 +108,17 @@ In Active Directory, we have computer groups per department. So it wouldn't be t
 ### Argus was born
 #### Part I
 
-I incorporated a function within within the system-tray application and named it Argus. This would become the name of the application.
-Argus looks for a JSON-file on it's own hard-drive every 60 seconds. The location of this JSON-file is one where a default user has all permissions.
+I incorporated a function within the system-tray application and named it Argus. This would become the name of the whole application.
+Argus looks for a JSON-file on it's own hard-drive every 60 seconds. The location of this JSON-file is one where a default user has all permissions. This is only half of the story tho ... .
 
 #### Part II
-On our department we created a website that keeps track of tickets, the service-monitor, server-cooling, ... . We display all this on a TV. Picture it as a slide-show where this information 'rolls over the screen'. This is all driven by a laptop that acts like a "server".
-On this laptop i made a tool that servers as the feeder for the Argus SOS notification.
+On our department we created a website that keeps track of tickets, the service-monitor, server-cooling, ... . We display all this information on a TV. Picture it as a slide-show where this information 'rolls over the screen'. This is all driven by a laptop that acts like a "TV-server".
+On this laptop i made a **second tool** that servers as the feeder for the "Argus SOS"-notification.
 
 It scrapes our service monitor every 60 seconds and compares it to the last result. If they don't match, a new message is send.
 The feeder will query AD for all existing computers in our OU. It will then quickly ping all these computers and filter out the online ones.
 
-Once it has a list of online computers, it will create a JSON-file on there C-drive. It is this location that the Argus-function monitors. If it finds a JSON-file, it will grab the content and will display it in the form of a toast-notification as shown here:
+Once it has a list of online computers, it will create a JSON-file on their C-drive. It is this location that the Argus-function monitors. If it finds a JSON-file, it will grab the content and will display it in the form of a toast-notification as shown here:
 
 ![Design]({{site.baseurl}}/assets/images/argus/toasts.png)  
 
