@@ -1,5 +1,8 @@
 ---
 published: true
+title: Argus, my favorite dog!
+Author_profile: true
+date: '2018-10-28'
 ---
 # Argus, my favorite dog!
 
