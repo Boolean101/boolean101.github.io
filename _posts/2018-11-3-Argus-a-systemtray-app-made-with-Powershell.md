@@ -127,3 +127,9 @@ Once it has a list of online computers, it will create a JSON-file on their C-dr
 One of the **requirements** is that the "feeder\monitor-application" has suffiecient rights both on AD and on the C$-shares of the clients. 
 
 I could have gone a different route and let Argus scrape the servicemonitor on each client. But that would have caused a lot of networktraffic and server-requests. I disliked that idea and i figured that having one monitor-system that then copies the message to the clients a much more elegant way of going about it.
+
+## Closing words
+
+This project litteraly came to life by reading a Reddit post. It has shown me some new techniques like Visual Studio, WPF, XAML and  i even briefly touched on Runspaces. I came a cross many different problems but i'm proud of the end-result.
+
+Since there is no installation proces and the EXE contains everything that is needed to run the application, it should be around for quite some time.
