@@ -4,7 +4,7 @@ title: Argus, my loyal dog!
 Tags: 'PS, Scrape, Warranty'
 Author_profile: true
 published: true
-date: '2018-10-28'
+date: '2018-11-4'
 ---
 Hi! This blog-post is about one of the projects i'm most proud of! The development of "Argus" started around March of 2018. This project grew while i was working on it. I have tried to structure this blog-post as best as i could but in truth most ideas and discoveries were made during the development. This post is less technical and more an in depth overview of what the application actually is. Here goes ...
 
