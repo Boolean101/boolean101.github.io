@@ -27,7 +27,7 @@ Some parts were a true struggle like creating a button with a drop-down menu or 
 
 So after **a lot of Googling** and tinkering i had my basic design finished and i decided on what content i needed in the application. The result looked like this :
 
-![]({{site.baseurl}}/assets/images/argus/design.png)  
+![Design]({{site.baseurl}}/assets/images/argus/design.png)  
 
 ## XAML in Powershell Studio ?
 So the next big question was **" How the hell am i going to get this into an executable? "** This would mean that i would combine Winforms and WPF.
