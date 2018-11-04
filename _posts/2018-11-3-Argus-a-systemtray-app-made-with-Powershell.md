@@ -79,7 +79,7 @@ During my research i had come a cross [MahApps](https://mahapps.com/). This is a
 
 I'm not gonna lie, this was something i spend **a lot of time on** figuring it out. Step-by-step things became clear and some parts started to work. 
 
-Now that i'm writing this article and i'm reviewing the XAML\MAhapps  part, it's already a bit of a blur on how i got that part done. I should re-visit it in the coming months.
+Now that i'm writing this article and i'm reviewing the XAML\MahApps  part, it's already a bit of a blur on how i got that part done. I should re-visit it in the coming months.
 
 Anyway, with the Helpdesk-button on the top and the wheel-cog on the buttom left, i had most of my features implemented. The gray wheel cog will open a fly-in menu that has the option to install a printer. This would open the [TCP\IP-printtool](https://cookiecrumbles.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/) i wrote about.
 
