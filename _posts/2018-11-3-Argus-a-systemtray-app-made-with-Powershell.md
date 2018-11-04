@@ -1,7 +1,9 @@
 ---
-published: true
+Layout: post
 title: Argus, my favorite dog!
+Tags: 'PS, Scrape, Warranty'
 Author_profile: true
+published: true
 date: '2018-10-28'
 ---
 # Argus, my favorite dog!
