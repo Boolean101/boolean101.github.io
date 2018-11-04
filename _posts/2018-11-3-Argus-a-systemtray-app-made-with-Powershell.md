@@ -84,7 +84,7 @@ Now that i'm writing this article and i'm reviewing the XAML\MAhapps  part, it's
 
 Anyway, with the Helpdesk-button on the top and the wheel-cog on the buttom left, i had most of my features implemented. The gray wheel cog will open a fly-in menu that has the option to install a printer. This would open the [TCP\IP-printtool](https://cookiecrumbles.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/) i wrote about.
 
-The green cog will just start the command 
+The green cog will just start the command:
 > control printers
 
 This way users can quickly change there default printer. 
