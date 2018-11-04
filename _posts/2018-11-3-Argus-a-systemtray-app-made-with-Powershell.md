@@ -140,3 +140,5 @@ I could have gone a different route and let Argus scrape the servicemonitor on e
 This project litteraly came to life by reading a Reddit post. It has shown me some new techniques like Visual Studio, WPF, XAML and  i even briefly touched on Runspaces. I came a cross many different problems but i'm proud of the end-result.
 
 Since there is no installation proces and the EXE contains everything that is needed to run the application, it should be around for quite some time.
+
+Good boy Argus !
