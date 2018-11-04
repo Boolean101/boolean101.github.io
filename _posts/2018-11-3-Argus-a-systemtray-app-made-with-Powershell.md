@@ -1,6 +1,6 @@
 ---
 Layout: post
-title: Argus, my favorite dog!
+title: Argus, my loyal dog!
 Tags: 'PS, Scrape, Warranty'
 Author_profile: true
 published: true
