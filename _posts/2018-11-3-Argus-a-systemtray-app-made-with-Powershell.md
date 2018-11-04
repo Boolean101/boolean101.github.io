@@ -6,8 +6,6 @@ Author_profile: true
 published: true
 date: '2018-10-28'
 ---
-# Argus, my favorite dog!
-
 Hi!
 
 This blog-post is about one of the projects i'm most proud of! The development of "Argus" started around March of 2018. This project grew whilst working on it. I have tried to structure this blog-post as best as i could but in truth most ideas and discoveries were made during the development. Here goes ...
