@@ -122,6 +122,13 @@ Once it has a list of online computers, it will create a JSON-file on their C-dr
 
 ![Design]({{site.baseurl}}/assets/images/argus/toasts.png)  
 
+There are 4 types of messages that can exist on the servicemonitor, each type got its own color, the same ones as on the servicemonitor.
+
+- Information (info)
+- Outage (storingen)
+- Unavailable (onbeschikbaar)
+- Available (beschikbaar)
+
 #### Requirements and benefits
 
 One of the **requirements** is that the "feeder\monitor-application" has suffiecient rights both on AD and on the C$-shares of the clients. 
