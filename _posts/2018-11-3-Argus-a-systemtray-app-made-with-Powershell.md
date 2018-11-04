@@ -72,7 +72,9 @@ I looked for additional features and this is what i ended up with:
 - a way to manage your default printer
 - a SOS-warning system
 
-### Mahapps
+This is a lot to fit into a small GUI like Argus. This is where **MahApps** comes in.
+
+### MahApps
 During my research i had come a cross [MahApps](https://mahapps.com/). This is a UI toolkit for WPF. It gives your application the Metro-look and feel. Something we are accustomed to with Windows 10. One of the features that appealed to me the most was the "fly-in" option. This would give me the option of a "hidden" menu and would keep my design nice and simple.
 
 I'm not gonna lie, this was something i spend **a lot of time on** figuring it out. Step-by-step things became clear and some parts started to work. 
