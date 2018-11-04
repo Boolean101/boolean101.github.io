@@ -38,7 +38,7 @@ Since the example script was ready to go, i figured i would try to get that into
 This lead me to believe that my project was a doable one. 
 
 ## One EXE - no installation needed
-The application is one EXE and that's it. When the application starts, it **creates** the DLL  for MahApps  and all its images (banner, icons, images for toast notifications)  in a temp-location. This temp -ocation is under the APPDATA of the user who starts the application. So you have no issues with *user-permissions*.
+The application is one EXE and that's it. When the application starts, it **creates** the DLL  for MahApps (see below) and all its images (banner, icons, images for toast notifications)  in a temp-location. This temp -ocation is under the APPDATA of the user who starts the application. So you have no issues with *user-permissions*.
 
 ```powershell
 $env:temp
