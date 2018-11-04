@@ -101,7 +101,7 @@ Some years ago we were unfortunate enough to have both the exchange-server as th
 
 Afterwards a colleague asks if we could figure out some sort of SOS\Emergency system if this were ever to happen again.
 
-One request of the end-user was that the message or notification would not be to intrusive. This brought me back to the toast-notifications that would just pop-up for a few seconds to then disappear. 
+One request of the end-user was that the message or notification would not be too intrusive. This brought me back to the toast-notifications that would just pop-up for a few seconds to then disappear. 
 
 In Active Directory, we have computer groups per department. So it wouldn't be too hard to figure out what computers we'd like to reach. As long as we had network, it is doable.
 
