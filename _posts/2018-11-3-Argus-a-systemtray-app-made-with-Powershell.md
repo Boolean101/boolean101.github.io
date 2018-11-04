@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Argus, my favorite dog!
 
@@ -120,11 +120,12 @@ On this laptop i made a tool that servers as the feeder for the Argus SOS notifi
 It scrapes our service monitor every 60 seconds and compares it to the last result. If they don't match, a new message is send.
 The feeder will query AD for all existing computers in our OU. It will then quickly ping all these computers and filter out the online ones.
 
-Once it has a list of online computers, it will create a JSON-file on there C-drive. It is this location that the Argus-function monitors. If it finds a JSON-file, it will grab the content and will display it in the form of a toast-notification.
+Once it has a list of online computers, it will create a JSON-file on there C-drive. It is this location that the Argus-function monitors. If it finds a JSON-file, it will grab the content and will display it in the form of a toast-notification as shown here:
+
+![Design]({{site.baseurl}}/assets/images/argus/toasts.png)  
 
 
 One of the **requirements** is that the "feeder-application" has suffiecient rights both on AD and on the C$-shares of the clients.
-
 
 
 
