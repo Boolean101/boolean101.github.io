@@ -123,7 +123,7 @@ Once it has a list of online computers, it will create a JSON-file on their C-dr
 ![Design]({{site.baseurl}}/assets/images/argus/toasts.png)  
 
 
-One of the **requirements** is that the "feeder-application" has suffiecient rights both on AD and on the C$-shares of the clients.
+One of the **requirements** is that the "feeder\monitor-application" has suffiecient rights both on AD and on the C$-shares of the clients.
 
 
 
