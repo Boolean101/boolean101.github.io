@@ -106,16 +106,17 @@ One request of the end-user was that the message or notification would not be to
 In Active Directory, we have computer groups per department. So it wouldn't be too hard to figure out what computers we'd like to reach. As long as we had network, it is doable.
 
 ### Argus was born
-#### Part I
+#### Part I - The Client
 
 I incorporated a function within the system-tray application and named it Argus. This would become the name of the whole application.
 Argus looks for a JSON-file on it's own hard-drive every 60 seconds. The location of this JSON-file is one where a default user has all permissions. This is only half of the story tho ... .
 
-#### Part II
+#### Part II -  The monitor\feeder
 On our department we created a website that keeps track of tickets, the service-monitor, server-cooling, ... . We display all this information on a TV. Picture it as a slide-show where this information 'rolls over the screen'. This is all driven by a laptop that acts like a "TV-server".
 On this laptop i made a **second tool** that servers as the feeder for the "Argus SOS"-notification.
 
-It scrapes our service monitor every 60 seconds and compares it to the last result. If they don't match, a new message is send.
+It **monitors and scrapes our service monitor every 60 seconds** and stores its content as an MD5-hash.
+Then it compares the new hash with the previous result. If the hashes don't match, a new message is send.
 The feeder will query AD for all existing computers in our OU. It will then quickly ping all these computers and filter out the online ones.
 
 Once it has a list of online computers, it will create a JSON-file on their C-drive. It is this location that the Argus-function monitors. If it finds a JSON-file, it will grab the content and will display it in the form of a toast-notification as shown here:
