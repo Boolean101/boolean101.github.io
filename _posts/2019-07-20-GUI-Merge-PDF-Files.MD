@@ -1,6 +1,6 @@
 ---
 Layout: post
-title:  GUI - Merge PDF files with PowerShell and PDSSHarp.DLL library 
+title:  GUI - Merge PDF files with PowerShell and PDFSHarp.DLL library 
 Author_profile: true
 published: true
 date: '2019-07-20'
