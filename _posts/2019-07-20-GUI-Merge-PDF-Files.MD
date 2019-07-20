@@ -6,7 +6,7 @@ published: true
 date: '2019-07-20'
 ---
 
-Back in May 2019 I was at a colleague desk for a technical intervention.
+Back in May 2019 I was at a colleague's desk for a technical intervention.
 While debugging the issue at hand, the user showed me his work-process.
 
 He was manually exporting 5 to 10 PDF-files from an email and merging them one by one into a new PDF-file. 
@@ -28,6 +28,7 @@ A second thread will spin up and will do the merging.
 This allows for the GUI to remain responsive while doing the merge.
 
 ![2]({{site.baseurl}}/assets/images/MergePDF/2.gif)  
+*the green does not happen IRL, for some reason while recording it added this.*
 
 The newly merged file is automatically stored on the users desktop.
 The filename will have the prefix "MergePDF_" followed by the datetime. This will make sure that each merge has a unique filename.
