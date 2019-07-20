@@ -18,7 +18,8 @@ The most mentioned ones were PDFSharp and ITextSharp. I went for [PDFSharp](http
 
 I designed a small GUI in PowerShell Studio 2019. It allows you to choose a root-folder.
 
-![1](https://github.com/CookieCrumbles/cookiecrumbles.github.io/blob/master/assets/images/MergePDF/1.png)
+![1]({{site.baseurl}}/assets/images/MergePDF/1.png)  
+
 
 The application will then recursively search through all folders in search for PDF-files.
 You would then check all the files you wish to merge and press "Merge".
@@ -26,7 +27,7 @@ You would then check all the files you wish to merge and press "Merge".
 A second thread will spin up and will do the merging.
 This allows for the GUI to remain responsive while doing the merge.
 
-![2](https://github.com/CookieCrumbles/cookiecrumbles.github.io/blob/master/assets/images/MergePDF/2.gif)
+![2]({{site.baseurl}}/assets/images/MergePDF/2.gif)  
 
 The newly merged file is automatically stored on the users desktop.
 The filename will have the prefix "MergePDF_" followed by the datetime. This will make sure that each merge has a unique filename.
@@ -40,7 +41,7 @@ This was more for a visual verification than anything else.
 I added an option named "Annotation". This will add the location of the PDF-file into the newly merged PDF.
 It will print this in a red color so that users can spot it with ease.
 
-![3](https://github.com/CookieCrumbles/cookiecrumbles.github.io/blob/master/assets/images/MergePDF/3.png)
+![3]({{site.baseurl}}/assets/images/MergePDF/3.png)  
 
 # Updated in July V2#
 
