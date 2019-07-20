@@ -15,7 +15,7 @@ I asked him how many times he would do this and it turned out that he was doing 
 
 A little baffled of the boring and time consuming process, I went back to my own workplace. 
 I started Googling and I came across several open source projects for merging PDF-files.
-The most mentioned ones were PDFSharp and ITextSharp. I went for [PDFSharp](http://www.pdfsharp.com/PDFsharp/ "PDFSharp").
+The ones that got mentioned most, were PDFSharp and ITextSharp. I went for [PDFSharp](http://www.pdfsharp.com/PDFsharp/ "PDFSharp").
 
 I designed a small GUI in PowerShell Studio 2019. It allows you to choose a root-folder.
 
@@ -31,7 +31,7 @@ This allows for the GUI to remain responsive while doing the merge.
 ![2]({{site.baseurl}}/assets/images/MergePDF/2.gif)  
 *the green does not happen IRL, for some reason while recording it added this.*
 
-The newly merged file is automatically stored on the users desktop.
+The newly merged file is automatically stored on the user's desktop.
 The filename will have the prefix "MergePDF_" followed by the datetime. This will make sure that each merge has a unique filename.
 After saving the file the application will automatically open the newly created PDF so that the user can visually confirm all is well.
 
