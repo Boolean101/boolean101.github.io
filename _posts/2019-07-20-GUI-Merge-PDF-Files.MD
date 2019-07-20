@@ -47,5 +47,5 @@ It will print this in a red color so that users can spot it with ease.
 
 # Updated in July V2#
 
-So it seems that some PDF-files can has a "corrupt structure". Because of that, the PDFSharp library isn't able to process the file and will fail.
+So it seems that some PDF-files can have a "corrupt structure". Because of that, the PDFSharp library isn't able to process the file and will fail.
 This rarely happens but it does. Upon failure, the user is shown a textfile with all the filenames that would not have been included in the merge.
