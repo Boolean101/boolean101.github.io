@@ -7,6 +7,7 @@ date: '2019-07-20'
 ---
 
 Back in May 2019 I was at a colleague's desk for a technical intervention.
+
 While debugging the issue at hand, the user showed me his work-process.
 
 He was manually exporting 5 to 10 PDF-files from an email and merging them one by one into a new PDF-file. 
