@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "Curriculum Vitae"
-     url: https://boolean101.github.io/online-cv/
+  # - title: "Curriculum Vitae"
+  #   url: https://boolean101.github.io/online-cv/
    - title: "About"
      url: /about/
   # - title: "Sitemap"
