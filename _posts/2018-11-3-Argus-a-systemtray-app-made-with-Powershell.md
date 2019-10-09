@@ -68,7 +68,7 @@ I looked for additional features and this is what I ended up with:
 
 - a link to the helpdesk-system to create a ticket\call
 - a link to our service-monitor to check if there are issues with program\service X or Y
-- the incorporation of my other tool, the [TCP\IP-printtool](https://cookiecrumbles.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/)
+- the incorporation of my other tool, the [TCP\IP-printtool](https://boolean101.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/)
 - a way to manage your default printer
 - an SOS-warning system
 
@@ -81,7 +81,7 @@ I'm not gonna lie, this was something I spend **a lot of time on** figuring it o
 
 Now that I'm writing this article and I'm reviewing the XAML\MahApps  part, it's already a bit of a blur on how I got that part done. I should re-visit it in the coming months.
 
-Anyway, with the Helpdesk-button on the top and the wheel-cog on the bottom left, I had most of my features implemented. The gray wheel cog will open a fly-in menu that has the option to install a printer. This would open the [TCP\IP-printtool](https://cookiecrumbles.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/) I wrote about.
+Anyway, with the Helpdesk-button on the top and the wheel-cog on the bottom left, I had most of my features implemented. The gray wheel cog will open a fly-in menu that has the option to install a printer. This would open the [TCP\IP-printtool](https://boolean101.github.io/Deploying-TCPIP-printers-with-a-Powershell-GUI/) I wrote about.
 
 The green cog will just start the command:
 > control printers
