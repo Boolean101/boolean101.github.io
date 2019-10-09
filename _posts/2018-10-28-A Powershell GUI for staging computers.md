@@ -48,7 +48,7 @@ Our third and final value is over at the right-hand-side.
 There you'll see a list of all the computer-groups that exist in Active Directory.  
 These computer-groups are used by SCCM to deploy software to.  
 So in theory, when you create a new computer, the deployment of software all goes automatically.  
-I talked more in depth about this process in a post i made some time ago : [Read more here](https://cookiecrumbles.github.io/SCCM_AD_Powershell/ "Read more here")  
+I talked more in depth about this process in a post i made some time ago : [Read more here](https://boolean101.github.io/SCCM_AD_Powershell/ "Read more here")  
   
   
 As a visual reference on the bottom of the application, you can always see the what object you'll be creating.  
