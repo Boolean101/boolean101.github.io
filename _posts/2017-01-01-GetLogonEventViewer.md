@@ -103,6 +103,6 @@ $Result | Select-Object Computer, Time, EventId, "Event Type", User, SID, Messag
 
 Of course you could export it into a CSV or whatever form you'd like.
 
-The script itself can be found in the repository : [Get_LogonEventViewer](https://github.com/boolean101/Get_LogonEventviewer)
+The script itself can be found in the repository : [Get_LogonEventViewer](https://github.com/kristofstroobants/Get_LogonEventviewer)
 
 Note: If you run this script, you should run it as an administrator
