@@ -6,9 +6,6 @@ Tags: 'Powershell, ActiveDirectory'
 published: true
 date: '2021-06-29'
 ---
-
-StageBuddy - MoveBuddy (Powershell GUI)
-
 Over the past 18 months, i've been working on one big project with a main focus on Group Policy.
 Without getting into sensitive details, our AD had too many OU's.
 Each OU had its own GPO's, AD-Groups, etc etc.
@@ -46,5 +43,8 @@ This is needed when an employee takes on a new job within the firm.
 The user maintains his\her computer but the metadata and computergroups need to be redefined.
 The procedure is basically the same as StageBuddy, it just modifies\updates existing devices instead of creating new ones.
 
+![MoveBuddy]({{site.baseurl}}/assets/images/StageBuddyMoveBuddy/movebuddy.png)
 
 Both MoveBuddy & StageBuddy are currently being used by 50 IT-employees across the corporation.
+
+
