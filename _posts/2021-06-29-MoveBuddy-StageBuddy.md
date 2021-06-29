@@ -57,8 +57,9 @@ Both MoveBuddy & StageBuddy are currently being used by 50 IT-employees across t
 It simplifies the whole process immensely!<br/>
 <br/>
 This project had multiple hurdles i needed to get across but the biggest lesson learned was how to use a simple C# function in a Powershell project.<br/>
-On the richtextbox which is used to give feedback, i wanted to have a padding to make it visually more pleasing.
-
+I don't know how to code C# myself.<br\>
+On the richtextbox which i use to give user feedback, i wanted to add some padding to make it visually more pleasing.
+You start by assigning the code to a variable: <\br>
 ```powershell
 $PaddingOnRichTextbox = @"
 namespace MoveBuddyHelper
@@ -86,5 +87,5 @@ namespace MoveBuddyHelper
 "@
 
 ```
-Once the function is available, you add it like so= `Add-Type $PaddingOnRichTextbox -ReferencedAssemblies System.Windows.Forms, System.Drawing` <br\>
+Once the function is available, you make the class availab by adding it: `Add-Type $PaddingOnRichTextbox -ReferencedAssemblies System.Windows.Forms, System.Drawing` <br\>
 The class and function are now available for you to use: `[MoveBuddyHelper.RichTextBoxExtensions]::SetInnerMargins($txt_feedback, 10, 5, 10, 5)` 
