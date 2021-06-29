@@ -20,7 +20,7 @@ This meant analyzing every existing policy to the last detail and then decide on
 - ...
 
 We wrote a GPO-proposal explaining the new logic, naming conventions were decided on, a governance system was put in place, ... .<br/>
-Powershell was used to gather the information about the existing group policy objects.<br/>
+Powershell was used to gather the information about the existing Group Policy objects.<br/>
 <br/>
 Based off of this huge project, smaller projects derived, these are the ones I briefly want to touch on in this post.<br/>
 <br/>
