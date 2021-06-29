@@ -27,8 +27,7 @@ That means that the data needs to be uniform, up-to-date and above all, very acc
 
 To exclude typo's or other human errors, StageBuddy was  created. This is basically a rework from an earlier post i made :  [A-Powershell-GUI-for-staging-computers](https://kristofstroobants.github.io/A-Powershell-GUI-for-staging-computers/) 
 
-
-
+![StageBuddy]({{site.baseurl}}/assets/images/StageBuddyMoveBuddy/stagebuddy.png)
 
 It allows for computer creation via a Powershell GUI. V2 just got a bit more complexity because of certain pre-defined conditions.
 You choose your desired OU (each OU has its own prefix for groups and computernames), the devicetype (Laptop\Desktop) and the location.
