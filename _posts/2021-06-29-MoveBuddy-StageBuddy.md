@@ -35,11 +35,11 @@ Based on your selection, StageBuddy will calculate all free computer names withi
 Choosing the location helps StageBuddy to decide which users to display and figures out the associated computer groups.<br/>
 <br/>
 When you press create, StageBuddy will:<br/>
-<br/>
+
 - Create the computer-object in AD in the correct OU
 - Add the computer to the desired computer group(s) in AD
 - Fill in the meta-data files (extention-attributes,decription,location, ...)
-<br/>
+
 Next came MoveBuddy. MoveBuddy allows to assign an already existing computer to a different user.<br/>
 This when an already existing uses changes jobs internally or when an existing computer gets assigned to a new user.<br/>
 In both cases the metadata on the computer-object needs to be updated.<br/>
