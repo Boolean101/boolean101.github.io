@@ -87,5 +87,5 @@ namespace MoveBuddyHelper
 "@
 
 ```
-Once the function is available, you make the class availab by adding it: `Add-Type $PaddingOnRichTextbox -ReferencedAssemblies System.Windows.Forms, System.Drawing` <br\>
+Once the function is available, you make the class availab by adding it: `Add-Type $PaddingOnRichTextbox -ReferencedAssemblies System.Windows.Forms, System.Drawing` 
 The class and function are now available for you to use: `[MoveBuddyHelper.RichTextBoxExtensions]::SetInnerMargins($txt_feedback, 10, 5, 10, 5)` 
