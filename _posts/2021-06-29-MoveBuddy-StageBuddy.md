@@ -51,5 +51,76 @@ Both MoveBuddy & StageBuddy are currently being used by 50 IT-employees across t
 <br/>
 It simplifies the whole process immensely!<br/>
 <br/>
-The biggest lesson learned in this one was how to use a simple C# function into a Powershell project.<br/>
-On the rich
+This project had multiple hurdles i needed to get across but the biggest lesson learned was how to use a simple C# function in a Powershell project.<br/>
+On the richtextbox which is used to give feedback, i wanted to have a padding to make it visually more pleasing.
+
+```powershell
+$PaddingOnRichTextbox = @"
+namespace MoveBuddyHelper
+{
+    // See http://stackoverflow.com/q/2914004/107625
+
+    using System;
+    using System.Drawing;
+    using System.Runtime.InteropServices;
+    using System.Windows.Forms;
+
+    public static class RichTextBoxExtensions
+    {
+        public static void SetInnerMargins(this TextBoxBase textBox, int left, int top, int right, int bottom)
+        {
+            var rect = textBox.GetFormattingRect();
+
+            var newRect = new Rectangle(left, top, rect.Width - left - right, rect.Height - top - bottom);
+            textBox.SetFormattingRect(newRect);
+        }
+
+        [StructLayout(LayoutKind.Sequential)]
+        private struct RECT
+        {
+            public readonly int Left;
+            public readonly int Top;
+            public readonly int Right;
+            public readonly int Bottom;
+
+            private RECT(int left, int top, int right, int bottom)
+            {
+                Left = left;
+                Top = top;
+                Right = right;
+                Bottom = bottom;
+            }
+
+            public RECT(Rectangle r) : this(r.Left, r.Top, r.Right, r.Bottom)
+            {
+            }
+        }
+
+        [DllImport(@"User32.dll", EntryPoint = @"SendMessage", CharSet = CharSet.Auto)]
+        private static extern int SendMessageRefRect(IntPtr hWnd, uint msg, int wParam, ref RECT rect);
+
+        [DllImport(@"user32.dll", EntryPoint = @"SendMessage", CharSet = CharSet.Auto)]
+        private static extern int SendMessage(IntPtr hwnd, int wMsg, IntPtr wParam, ref Rectangle lParam);
+
+        private const int EmGetrect = 0xB2;
+        private const int EmSetrect = 0xB3;
+
+        private static void SetFormattingRect(this TextBoxBase textbox, Rectangle rect)
+        {
+            var rc = new RECT(rect);
+            SendMessageRefRect(textbox.Handle, EmSetrect, 0, ref rc);
+        }
+
+        private static Rectangle GetFormattingRect(this TextBoxBase textbox)
+        {
+            var rect = new Rectangle();
+            SendMessage(textbox.Handle, EmGetrect, (IntPtr) 0, ref rect);
+            return rect;
+        }
+    }
+}
+"@
+
+```
+Once the function is available, you add it with `Add-type` like so `Add-Type $PaddingOnRichTextbox -ReferencedAssemblies System.Windows.Forms, System.Drawing`
+The class and function are now available for you to use: `[MoveBuddyHelper.RichTextBoxExtensions]::SetInnerMargins($txt_feedback, 10, 5, 10, 5)` 
