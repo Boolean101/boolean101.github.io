@@ -45,7 +45,7 @@ This when an already existing uses changes jobs internally or when an existing c
 In both cases the metadata on the computer-object needs to be updated.
 The procedure is basically the same as StageBuddy, it just modifies\updates existing devices instead of creating new ones.
 
-![MoveBuddy]({{site.baseurl}}/assets/images/StageBuddyMoveBuddy/movebuddy.png)
+![MoveBuddy]({{site.baseurl}}/assets/images/StageBuddyMoveBuddy/MoveBuddy.png)
 
 Both MoveBuddy & StageBuddy are currently being used by 50 IT-employees across the corporation.
 
