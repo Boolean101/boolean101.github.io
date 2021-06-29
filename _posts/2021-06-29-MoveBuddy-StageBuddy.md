@@ -12,12 +12,17 @@ Each OU had its own GPO's, AD-Groups, etc etc.<br/>
 Many of those items were basically the same for each OU but with a different prefix in the name.<br/>
 
 The project I’ve been working on, tries to merge as much Group Policy objects as possible. <br/>
-This meant analyzing every existing policy to the last detail and then try to define what needs to stay and what needs to go.<br/>
-What is specific to a branch, what do we need to keep (e.g. printer-handling might differ per branch) and what can we merge into a company-wide solution?<br/>
-We wrote a GPO-proposal where the new logic was explained, naming conventions were decided on, a governance system was put in place, ... .<br/>
+This meant analyzing every existing policy to the last detail and then decide on questions like:
+
+- What is specific to each branch?
+- What do we need to keep (e.g. printer-handling might differ per branch) 
+- What can we merge into a company-wide solution?
+- ...
+
+We wrote a GPO-proposal explaining the new logic, naming conventions were decided on, a governance system was put in place, ... .<br/>
 Powershell was used to gather the information about the existing group policy objects.<br/>
 <br/>
-Based off of this huge project, smaller projects derived, these are the ones I’d briefly want to touch on in this post.<br/>
+Based off of this huge project, smaller projects derived, these are the ones I briefly want to touch on in this post.<br/>
 <br/>
 In the new AD structure, we only have a few OU's left. Each computer needs to get some metadata written into its properties.<br/>
 This is important because the metadata will be used in the future to retrieve a specific set of objects by querying AD. <br/>
