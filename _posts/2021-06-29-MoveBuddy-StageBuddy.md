@@ -22,7 +22,7 @@ This meant analyzing every existing policy to the last detail and then decide on
 We wrote a GPO-proposal explaining the new logic, naming conventions were decided on, a governance system was put in place, ... .<br/>
 Powershell was used to gather the information about the existing Group Policy objects.<br/>
 <br/>
-Based off of this huge project, smaller projects derived, these are the ones I briefly want to touch on in this post.<br/>
+Based off of this huge project, smaller projects derived, these are the ones I briefly want to speak on today.<br/>
 <br/>
 In the new AD structure, we only have a few OU's left. Each computer needs to get some metadata written into its properties.<br/>
 This is important because the metadata will be used in the future to retrieve a specific set of objects by querying AD. <br/>
