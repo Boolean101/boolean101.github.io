@@ -46,7 +46,7 @@ When there was no data to be processed, only our team will receive an email. <br
 This way, we are informed that the task has run succesfully.
 
 ## Account Extension Manager (GUI) ##
-![]({{site.baseurl}}/assets/images/FeelingGeneric/FeelingGeneric1.png)
+![]({{site.baseurl}}/assets/images/FeelingGeneric/feelinggeneric1.png)
 
 At this point, the manager has received a notification of an about to expire generic account. <br>
 If the contractor will remain with the company just a bit longer, the manager can ask for an account extension via the GUI. <br>
