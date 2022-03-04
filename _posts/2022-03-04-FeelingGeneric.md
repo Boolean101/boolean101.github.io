@@ -10,14 +10,14 @@ date: '2022-03-04'
 Each company has external contractors that they employ only for a fixed period of time.<br>
 Some of these workers are given a corporate account with a laptop, a phone, ... .<br>
 Others are not so lucky but are still required to use some of our corporate applications.<br>
-For these contractors, we offer them a generic account. This allows them to connect and use a particular app and only that app.<br>
+For these contractors, we offer them a **generic account**. This allows them to connect and use a particular app and only that app.<br>
 
 In the past, a generic account was created by a Service Desk employee. Manual work isn't fun and it is prone to mistakes.<br>
 Service Desk employee 1 would use CAPS in the name, others would not.<br>
 Some employees respected the naming conventions whereas others would get more "creative".<br>
 
 A contractor is by definition only with us for a set period of time. This is managed by the `AccountExpirationDate` in Active Directory.<br>
-Of course when a contract was extended, a new ticket was created and Service Desk needed to manually extend the account.<br>
+In the past when a contract was extended, a new ticket was created and Service Desk needed to manually extend the account.<br>
 If the ticket got created at the very last minute (rarely happens ... ) , then there was an issue because the account wasn't extended in time.<br>
 
 I was asked to automate and "smoothen the process" as much as possible.<br>
