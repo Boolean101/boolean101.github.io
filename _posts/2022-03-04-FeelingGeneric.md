@@ -7,7 +7,7 @@ published: false
 date: '2022-03-04'
 ---
 
-Each company has external contractors they employ only for a fixed period of time.<br>
+Each company has external contractors that they employ only for a fixed period of time.<br>
 Some of these workers are given a corporate account with a laptop, a phone, ... .<br>
 Others are not so lucky but are still required to use some of our corporate applications.<br>
 For these contractors, we offer them a generic account. This allows them to connect and use a particular app and only that app.<br>
