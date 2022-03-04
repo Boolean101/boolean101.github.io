@@ -65,7 +65,7 @@ In the repository you'll also find a file named `New-GenericAccount.Tests.ps1`.
 
 I mainly sticked to writing IntegrationTests. I am happy i gave this a shot as i did find value to writing these tests. <br>
 The downside is that it requires more time, but the upside is that once you write them, it saves you time. <br>
- If time allows it, i'd like to start using these just a tad more in the future.<br>
+ If project time allows for it, i'd like to start using these a bit more in the future.<br>
 
 Anyway, that was it for now.
 
