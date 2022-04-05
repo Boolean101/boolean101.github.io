@@ -32,7 +32,7 @@ The 3 scripts were obfuscated and are available over at http://www.github.com <b
 ** Please note that this obfuscation might have a slight impact on the scripts logic/outlook. ** <br>
 
 ## New-GenericAccount.ps1 ##
-The first script that was written, contains a function New-GenericAccount and can be used as follows:<br>
+The first script that was written, contains a function `New-GenericAccount` and can be used as follows:<br>
 
 `New-ADGenericAccount -GivenName My -Surname Name -mail my.name@mypersonalmail.com -Application JIRA -mananger 12345`
 
