@@ -28,9 +28,6 @@ The project ended up with 3 PowerShell scripts and one small GUI i made in Power
 - Set-ExtendedExpirationDate.ps1
 
 
-The 3 scripts were obfuscated and are available over at http://www.github.com <br>
-** Please note that this obfuscation might have a slight impact on the scripts logic/outlook. ** <br>
-
 ## New-GenericAccount.ps1 ##
 The first script that was written, contains a function `New-GenericAccount` and can be used as follows:<br>
 
