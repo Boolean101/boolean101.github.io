@@ -3,7 +3,7 @@ Layout: post
 title: Feeling generic?
 Author_profile: true
 Tags: 'PowerShell, ActiveDirectory, Automation'
-published: false
+published: true
 date: '2022-03-04'
 ---
 
