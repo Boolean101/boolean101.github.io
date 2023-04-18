@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : CoekieCrumbles
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "K.Stroobants"
-  avatar           : "/assets/images/cookie.jpg"
+  avatar           : 
   bio              : "Sysadmin interested in Powershell, SCCM, WPA, AD, GPO, WINDB, Troubleshooting ..."
   location         : "Flanders, Belgium"
   email            : kristofstroobants@gmail.com
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :  CoekieCrumbles
+  twitter          :  
   vine             :
   weibo            :
   xing             :
