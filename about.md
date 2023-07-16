@@ -7,7 +7,7 @@ published: true
 <div class="about">
 
 Hi,
-
+<br><br>
 My name is Kristof and i started as a junior system administrator in 2011.<br>
 Between 2011 and 2020 , together with another sysadmin, i was responsible for +- 360 employees and 450 client devices, spread out over 20 different locations. In march of 2020 i took on a new role as a Infrastructure Engineer at the Windows Server Team.
 <br><br>
